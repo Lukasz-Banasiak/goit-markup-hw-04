@@ -91,6 +91,13 @@ body {
   font-weight: 500;
   margin-inline: 40px;
   margin-right: 227p;
+  margin-left:10px;
+
+}
+
+.header-flex {
+  display:flex;
+  align-items: center;
 }
 
 .mail_tel_top:hover {
