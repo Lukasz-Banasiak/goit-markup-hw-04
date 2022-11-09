@@ -91,12 +91,11 @@ body {
   font-weight: 500;
   margin-inline: 40px;
   margin-right: 227p;
-  margin-left:10px;
-
+  margin-left: 10px;
 }
 
 .header-flex {
-  display:flex;
+  display: flex;
   align-items: center;
 }
 
@@ -175,14 +174,12 @@ header {
 .assets-icons {
   width: 270px;
   height: 120px;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
-
 }
-
 
 /* FOOTER */
 .footer-container {
@@ -296,23 +293,21 @@ ul {
 }
 
 .list-of-social-icons {
-  display:flex;
-  justify-content:center;
+  display: flex;
+  justify-content: center;
   gap: 10px;
   margin-top: 16px;
 }
 
 .box-for-icon {
   background-color: #2196f3;
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
 }
-
-
 
 /**PORTFOLIO START**/
 
@@ -354,9 +349,9 @@ ul {
   color: var(--grey-color);
   font-weight: 400;
   font-size: 16px;
-  letter-spacing:0.03em;
+  letter-spacing: 0.03em;
   line-height: 1.88rem;
-  margin-left:24px;
+  margin-left: 24px;
   margin-bottom: 20px;
 }
 
