@@ -276,7 +276,7 @@ ul {
 
 .box-for-picture {
   width: 270px;
-  height: 368px;
+  height: 428px;
   background-color: var(--white-bgc-color);
   border-radius: 4px;
 }
@@ -294,6 +294,25 @@ ul {
   font-weight: 400;
   text-align: center;
 }
+
+.list-of-social-icons {
+  display:flex;
+  justify-content:center;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.box-for-icon {
+  background-color: #2196f3;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+
 
 /**PORTFOLIO START**/
 
