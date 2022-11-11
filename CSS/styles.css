@@ -256,13 +256,19 @@ ul {
   display: flex;
   flex-direction: column;
   background-color: rgba(245, 244, 250, 1);
-  height: 648px;
+  height:auto;
   margin: auto;
+}
+
+.team-flexbox {
+  display: flex;
+  flex-direction: column;
+  margin:auto;
+  text-align: center;
 }
 
 .team-header {
   font-size: 36px;
-  text-align: center;
   margin-bottom: 50px;
 }
 
