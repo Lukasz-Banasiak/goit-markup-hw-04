@@ -179,7 +179,12 @@ header {
   justify-content: center;
   margin-bottom: 30px;
 }
+/*NASI KLIENCI*/
 
+.clients-list {
+  display:flex;
+ justify-content: center;
+}
 /* FOOTER */
 .footer-container {
   background-color: var(--footer-header-bgc-color);
@@ -187,10 +192,10 @@ header {
 }
 
 .footer-wrapper {
-margin:auto;
-width:1170px;
-display:flex;
- }
+  margin: auto;
+  width: 1170px;
+  display: flex;
+}
 
 .footer-text {
   display: flex;
@@ -231,10 +236,9 @@ display:flex;
 }
 
 .join-us-box {
-  width:fit-content;
-  margin-left:70px;
+  width: fit-content;
+  margin-left: 70px;
   padding-top: 72px;
-  
 }
 
 .join-us-text {
