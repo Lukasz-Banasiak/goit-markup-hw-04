@@ -21,7 +21,7 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1170px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -163,9 +163,8 @@ header {
   vertical-align: top;
 }
 
-.assets-container {
+.assets-wrapper {
   display: flex;
-  margin: 0 auto;
   justify-content: center;
   margin-top: 94px;
   gap: 30px;
@@ -185,15 +184,18 @@ header {
 .footer-container {
   background-color: var(--footer-header-bgc-color);
   display: flex;
-  justify-content: center;
 }
-.footer-wrapper { }
+
+.footer-wrapper {
+margin:auto;
+width:1170px;
+display:flex;
+ }
 
 .footer-text {
   display: flex;
   flex-direction: column;
   height: 252px;
-  width: 1200px;
   align-items: flex-start;
   justify-content: center;
 }
@@ -227,6 +229,21 @@ header {
   line-height: 1.75rem;
   text-decoration: none;
 }
+
+.join-us-box {
+  width:fit-content;
+  margin-left:70px;
+  padding-top: 72px;
+  
+}
+
+.join-us-text {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: Roboto;
+}
+
 /* END OF FOOTER */
 
 ul {
@@ -236,7 +253,6 @@ ul {
 .what-we-do-wrapper {
   display: flex;
   flex-direction: column;
-  max-width: 1170px;
   margin-inline: auto;
 }
 
@@ -253,23 +269,13 @@ ul {
 }
 
 .team-container {
-  display: flex;
-  flex-direction: column;
   background-color: rgba(245, 244, 250, 1);
-  height:auto;
-  margin: auto;
-}
-
-.team-flexbox {
-  display: flex;
-  flex-direction: column;
-  margin:auto;
-  text-align: center;
 }
 
 .team-header {
   font-size: 36px;
   margin-bottom: 50px;
+  text-align: center;
 }
 
 .our-team-list {
