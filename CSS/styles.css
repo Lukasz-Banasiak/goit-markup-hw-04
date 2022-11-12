@@ -5,6 +5,8 @@
   --blue-color: #2196f3;
   --footer-header-bgc-color: #2f303a;
   --white-bgc-color: #ffffff;
+  --client-logo-color:#AFB1B8;
+  
 }
 
 body {
@@ -30,6 +32,7 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
 
 /*HEADER */
 
@@ -184,6 +187,21 @@ header {
 .clients-list {
   display:flex;
  justify-content: center;
+ gap: 30px;
+}
+
+.icon-design {
+  fill: #AFB1B8;
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--client-logo-color);
+  border-radius: 4px;
+  padding: 16px 0;
+}
+.icon-design:hover {
+  cursor: pointer;
+  fill: var(--blue-color);
+  border-color: var(--blue-color);
 }
 /* FOOTER */
 .footer-container {
