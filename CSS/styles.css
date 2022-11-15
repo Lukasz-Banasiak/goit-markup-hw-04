@@ -5,8 +5,7 @@
   --blue-color: #2196f3;
   --footer-header-bgc-color: #2f303a;
   --white-bgc-color: #ffffff;
-  --icon-fill:#AFB1B8;
-  
+  --icon-fill: #afb1b8;
 }
 
 body {
@@ -32,7 +31,6 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
 
 /*HEADER */
 
@@ -93,8 +91,11 @@ body {
   text-decoration: none;
   font-weight: 500;
   margin-inline: 40px;
-  margin-right: 227p;
-  margin-left: 10px;
+}
+
+.icon-mail-phone {
+  fill: currentColor;
+  margin-right: 10px;
 }
 
 .header-flex {
@@ -129,9 +130,13 @@ header {
 }
 
 .h1-section {
-  background-color: var(--footer-header-bgc-color);
+  /* background-color: var(--footer-header-bgc-color); */
+  background-image: url(../images/img_banner_background.jpg);
+  background-repeat: no-repeat;
+  background-size: content;
+  background-position: center;
   text-align: center;
-  height: 487px;
+  height: 600px;
 }
 
 .h1-text {
@@ -185,13 +190,13 @@ header {
 /*NASI KLIENCI*/
 
 .clients-list {
-  display:flex;
- justify-content: center;
- gap: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
 }
 
 .icon-design {
-  fill: #AFB1B8;
+  fill: #afb1b8;
   width: 170px;
   height: 92px;
   border: 1px solid var(--icon-fill);
@@ -335,13 +340,30 @@ ul {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  fill:var(--icon-fill);
+  fill: var(--icon-fill);
 }
 
 .box-for-icon:hover {
   background-color: var(--blue-color);
   cursor: pointer;
-  fill:var(--white-bgc-color)
+  fill: var(--white-bgc-color);
+}
+
+.icon-box-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.icon-box-footer:hover {
+  background-color: var(--blue-color);
+  cursor: pointer;
+  fill: var(--white-bgc-color);
 }
 
 /**PORTFOLIO START**/
