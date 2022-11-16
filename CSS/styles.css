@@ -142,6 +142,8 @@ header {
   background-position: center;
   text-align: center;
   height: 600px;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 .h1-text {
